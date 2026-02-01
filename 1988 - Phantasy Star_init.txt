@@ -1,3 +1,11 @@
+campaignTrail_temp.achievements = {
+    "Man Behind The Slaughter": {
+        "image": "https://file.garden/aV8MTnSmtyzzckGy/tct%20images/1988psctachievement.png", 
+        "description": "Slay Dark Falz's waking instrument on Earth.",
+        "cannotBeCheated": true
+    },
+}
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -611,12 +619,28 @@ generateTime = () => {
         "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Title%20-%20PSG.mp3"
       },
       {
+        "name": "Intro",
+        "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Intro%20-%20PSG.mp3"
+      },
+      {
+        "name": "Town",
+        "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Town%20-%20PSG.mp3"
+      },
+      {
+        "name": "Palma",
+        "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Palma%20-%20PSG.mp3"
+      },
+      {
         "name": "Battle",
         "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Battle%20-%20PSG.mp3"
       },
       {
         "name": "Church",
         "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Church%20-%20PSG.mp3"
+      },
+      {
+        "name": "Dungeon 2",
+        "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Dungeon%202%20-%20PSG.mp3"
       },
       {
         "name": "Sky City",
@@ -640,12 +664,28 @@ generateTime = () => {
             "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Title%20-%20FM.mp3"
         },
         {
+            "name": "Intro",
+            "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Intro%20-%20FM.mp3"
+        },
+        {
+            "name": "Town",
+            "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Town%20-%20FM.mp3"
+        },
+        {
+            "name": "Palma",
+            "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Palma%20-%20FM.mp3"
+        },
+        {
             "name": "Battle",
             "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Battle%20-%20FM.mp3"
         },
         {
             "name": "Church",
             "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Church%20-%20FM.mp3"
+        },
+        {
+            "name": "Dungeon 2",
+            "url": "https://file.garden/aV8MTnSmtyzzckGy/PS1OST/Phantasy%20Star%20OST%20-%20Dungeon%202%20-%20FM.mp3"
         },
         {
             "name": "Sky City",
@@ -730,3 +770,4 @@ e.creditsPage = () => {
 }
 
 e.credits = "<button onclick='e.creditsPage()'>Credits</button>"
+
